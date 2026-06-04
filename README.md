@@ -205,18 +205,15 @@ This draft can be adjusted as team ownership evolves. If you are added as a cont
 - Testing, validation, and issue triage during integration cycles.
 - Support on implementation tasks across services.
 
-### Abbysola (LLM Pipeline / Backend Team Lead)
-- Led the LLM Pipeline/Backend team, coordinating planning, client communication, requirement tracking, and technical execution.
-- Designed and implemented the end-to-end news summarization architecture, including translation, summarization, clustering, topic labeling, categorization, and multi-level summarization.
-- Developed core backend services using FastAPI for summarization, clustering, topic modeling, keyword extraction, translation, and evaluation workflows.
-- Implemented incremental clustering, summary caching, and article-level summarization strategies to improve efficiency and scalability.
-- Built LDA topic modeling and TF-IDF keyword extraction pipelines to support topic discovery, classification, and content analysis.
-- Defined cross-team data formats and integration requirements, coordinating with Data Model and n8n teams to ensure seamless system interoperability.
-- Led code reviews, repository organization, debugging, feature integration, and technical quality assurance across backend workflows.
-- Conducted research on LLM-based summarization, evaluation methodologies, and model selection to guide architecture decisions.
-- Implemented performance optimizations including asynchronous processing, caching, parallelization, and incremental updates.
-- Produced and consolidated technical documentation covering architecture, workflows, implementation details, and evaluation methodology.
-
+### Abbysola (LLM Team Lead)
+- Led the LLM team, coordinating planning and technical execution.
+- Designed and implemented the end-to-end news summarization pipeline, including translation, clustering, topic labeling, and multi-level summarization.
+- Built core backend services using FastAPI for summarization, clustering, keyword extraction, and evaluation workflows.
+- Developed LDA topic modeling and TF-IDF keyword extraction pipelines for topic discovery and content analysis.
+- Did code reviews, debugging, and technical quality assurance across LLM workflows.
+- Implemented performance optimizations including caching, parallelization, and incremental updates.
+- Produced technical documentation covering LLM architecture, and evaluation methodology.
+  
 ### @resialer2 (LLM Team Member)
 - Testing and validation of the multilingual LLM pipeline (German ↔ English translation and processing).
 - Evaluation of output quality, including summaries, topic labeling, and keyword generation for coherence and accuracy.
