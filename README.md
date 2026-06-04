@@ -173,6 +173,7 @@ Component-specific implementation also lives in:
 - [@lelatvaliashvili](https://github.com/lelatvaliashvili)
 - [@eniseirem](https://github.com/eniseirem)
 - [@Lennyad](https://github.com/Lennyad)
+- [@Abbysola](https://github.com/Abbysola)
 - [@resialer2](https://github.com/resialer2)
 
 
@@ -204,7 +205,7 @@ This draft can be adjusted as team ownership evolves. If you are added as a cont
 - Testing, validation, and issue triage during integration cycles.
 - Support on implementation tasks across services.
 
-### abbysola (LLM Pipeline / Backend Team Lead)
+### Abbysola (LLM Pipeline / Backend Team Lead)
 - Led the LLM Pipeline/Backend team, coordinating planning, client communication, requirement tracking, and technical execution.
 - Designed and implemented the end-to-end news summarization architecture, including translation, summarization, clustering, topic labeling, categorization, and multi-level summarization.
 - Developed core backend services using FastAPI for summarization, clustering, topic modeling, keyword extraction, translation, and evaluation workflows.
