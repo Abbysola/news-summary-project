@@ -204,6 +204,18 @@ This draft can be adjusted as team ownership evolves. If you are added as a cont
 - Testing, validation, and issue triage during integration cycles.
 - Support on implementation tasks across services.
 
+### abbysola (LLM Pipeline / Backend Team Lead)
+- Led the LLM Pipeline/Backend team, coordinating planning, client communication, requirement tracking, and technical execution.
+- Designed and implemented the end-to-end news summarization architecture, including translation, summarization, clustering, topic labeling, categorization, and multi-level summarization.
+- Developed core backend services using FastAPI for summarization, clustering, topic modeling, keyword extraction, translation, and evaluation workflows.
+- Implemented incremental clustering, summary caching, and article-level summarization strategies to improve efficiency and scalability.
+- Built LDA topic modeling and TF-IDF keyword extraction pipelines to support topic discovery, classification, and content analysis.
+- Defined cross-team data formats and integration requirements, coordinating with Data Model and n8n teams to ensure seamless system interoperability.
+- Led code reviews, repository organization, debugging, feature integration, and technical quality assurance across backend workflows.
+- Conducted research on LLM-based summarization, evaluation methodologies, and model selection to guide architecture decisions.
+- Implemented performance optimizations including asynchronous processing, caching, parallelization, and incremental updates.
+- Produced and consolidated technical documentation covering architecture, workflows, implementation details, and evaluation methodology.
+
 ### @resialer2 (LLM Team Member)
 - Testing and validation of the multilingual LLM pipeline (German ↔ English translation and processing).
 - Evaluation of output quality, including summaries, topic labeling, and keyword generation for coherence and accuracy.
@@ -213,7 +225,6 @@ This draft can be adjusted as team ownership evolves. If you are added as a cont
 
 The following people contributed to the project but are not currently listed as GitHub collaborators: 
 
-- **Abby** - LLM Team 
 - **Demi** - LLM Team 
 - **Anh** - Crawlers Team
 - **Levin** - Crawlers Team 
