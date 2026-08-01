@@ -1,8 +1,123 @@
-# SWP News Summary Monorepo
+# LLM-Powered News Summary Agent
 
-SWP News Summary is an end-to-end news processing platform that crawls articles, clusters related stories, generates summaries and labels, categorizes topics, and serves results via webhooks and a dashboard.
+An end-to-end news intelligence platform that collects articles, groups related
+stories, generates summaries and topic labels, and delivers structured results
+through automated workflows and a dashboard.
 
-This repository is a **monorepo** composed of multiple previously separate project branches, now kept together in one place for easier setup and collaboration.
+> **Collaborative software project**
+>
+> **My role:** LLM Team Lead  
+> **Primary AI coding tool:** Cursor
+> **Project context:** Developed collaboratively as part of a software project at Freie Universität Berlin
+
+## My Contribution
+
+I led the LLM team and coordinated the planning, implementation, debugging, and
+technical validation of the language-model components.
+
+My contributions included:
+
+- Leading the design and implementation of the LLM news-processing pipeline,
+  including translation, semantic clustering, topic labelling, keyword
+  extraction, and multi-level summarisation.
+- Building and coordinating FastAPI backend services for summarization,
+  clustering, keyword extraction, topic analysis, and evaluation workflows.
+- Developing LDA topic-modeling and TF-IDF keyword-extraction pipelines.
+- Conducting code reviews, debugging, and technical quality assurance across
+  the LLM workflows.
+- Implementing performance improvements through caching, parallel processing,
+  and incremental updates.
+- Producing technical documentation covering the LLM architecture, evaluation
+  methodology, and integration requirements.
+
+## How I Used AI Coding Tools
+
+I used Cursor as my primary AI-assisted development environment while building
+the LLM components of this project.
+
+My workflow typically involved:
+
+1. Defining the task, expected inputs and outputs, and system constraints.
+2. Asking Cursor to inspect the relevant files and propose an implementation
+   approach.
+3. Using it to accelerate Python and FastAPI implementation, code refactoring,
+   debugging, test-case generation, and technical documentation.
+4. Reviewing and modifying the generated code rather than accepting it
+   automatically.
+5. Running the workflow, inspecting errors and model outputs, and using the
+   results to guide further iterations.
+6. Validating the final architecture, business logic, prompts, and output quality
+   myself and with the project team.
+
+Cursor helped me navigate and contribute efficiently across a multi-service
+codebase, while I remained responsible for the architecture, integration
+decisions, output validation, and final technical judgement.
+
+### Representative Implementation
+
+A representative example is the FastAPI service connecting the summarization,
+clustering, keyword-extraction, and evaluation components:
+
+- [View the relevant implementation](https://github.com/Abbysola/news-summary-agent/tree/main/cswspws25-m3-final/src)
+- [View the related technical documentation](INSERT-DOCUMENTATION-LINK)
+
+I used Cursor to inspect the surrounding modules, propose the initial structure,
+identify duplicated logic, assist with refactoring, and generate edge cases.
+I then tested the service, reviewed the generated outputs, and corrected issues
+requiring architectural or analytical judgement.
+
+## System Overview
+
+The platform transforms streams of raw news articles into structured,
+dashboard-ready intelligence:
+
+- Collects articles from multiple news sources.
+- Groups semantically related articles into story clusters.
+- Generates article-level, cluster-level, and category-level summaries.
+- Produces topic labels, keywords, categories, and translations.
+- Stores articles and generated artefacts in OpenSearch.
+- Orchestrates the end-to-end workflow through n8n.
+- Displays processed results through a Streamlit dashboard.
+
+## Repository Context
+
+This repository is a monorepo that combines components previously maintained in
+separate project branches. They are now kept together to simplify setup,
+integration, documentation, and collaboration.
+
+## Technology Stack
+
+| Area | Technologies |
+|---|---|
+| Backend and APIs | Python, FastAPI |
+| LLM processing | Local language models through Ollama |
+| NLP and analysis | Semantic embeddings, LDA, TF-IDF |
+| Workflow orchestration | n8n |
+| Search and storage | OpenSearch |
+| Frontend | Streamlit |
+| Infrastructure | Docker |
+| AI-assisted development | Cursor |
+
+## Example of AI-Assisted Development
+
+One task I used Cursor for was developing and refining the FastAPI services that
+connected the summarization, clustering, keyword-extraction, and evaluation
+components.
+
+I used Cursor to:
+
+- inspect the existing service structure;
+- generate an initial endpoint implementation;
+- identify duplicated logic;
+- refactor shared processing steps;
+- trace integration errors across modules;
+- generate edge cases for testing;
+- improve type hints and error handling; and
+- document endpoint behaviour.
+
+I then reviewed the code, tested the endpoints against representative inputs,
+checked the generated summaries and labels, and corrected issues that required
+domain or architectural judgement.
 
 ## Contents
 
@@ -16,7 +131,7 @@ This repository is a **monorepo** composed of multiple previously separate proje
 - [Start Here For Workflow Logic](#start-here-for-workflow-logic)
 - [Implementation References](#implementation-references)
 - [Contributors](#contributors)
-- [Team Responsibilities (Draft)](#team-responsibilities-draft)
+- [Team Contributions](#team-contributions)
 - [Acknowledgements (Non-GitHub Contributors)](#acknowledgements-non-github-contributors)
 
 ## Project Purpose
@@ -177,9 +292,7 @@ Component-specific implementation also lives in:
 - [@resialer2](https://github.com/resialer2)
 
 
-## Team Responsibilities
-
-This draft can be adjusted as team ownership evolves. If you are added as a contributor, feel free to update the section that reflects your responsibilities.
+## Team Contributions
 
 ### lelatvaliashvili (Team Lead)
 - Led iterative development of the system, coordinating planning and execution while adapting architecture and pipeline design based on experimental results
@@ -207,8 +320,12 @@ This draft can be adjusted as team ownership evolves. If you are added as a cont
 
 ### Abbysola (LLM Team Lead)
 - Led the LLM team, coordinating planning and technical execution.
-- Designed and implemented the end-to-end news summarization pipeline, including translation, clustering, topic labeling, and multi-level summarization.
-- Built core backend services using FastAPI for summarization, clustering, keyword extraction, and evaluation workflows.
+- Led the design and implementation of the LLM news-processing pipeline,
+  including translation, semantic clustering, topic labelling, keyword
+  extraction, and multi-level summarization.
+- Built and coordinated the development of FastAPI backend services for
+  summarization, clustering, keyword extraction, topic analysis, and
+  evaluation workflows.
 - Developed LDA topic modeling and TF-IDF keyword extraction pipelines for topic discovery and content analysis.
 - Did code reviews, debugging, and technical quality assurance across LLM workflows.
 - Implemented performance optimizations including caching, parallelization, and incremental updates.
