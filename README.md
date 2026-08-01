@@ -8,6 +8,7 @@ through automated workflows and a dashboard.
 >
 > **My role:** LLM Team Lead  
 > **Primary AI coding tool:** Cursor
+> 
 > **Project context:** Developed collaboratively as part of a software project at Freie Universität Berlin
 
 ## My Contribution
@@ -78,6 +79,10 @@ dashboard-ready intelligence:
 - Stores articles and generated artefacts in OpenSearch.
 - Orchestrates the end-to-end workflow through n8n.
 - Displays processed results through a Streamlit dashboard.
+
+## Demo
+
+![News Summary Agent dashboard](images/news-agent-dashboard.png)
 
 ## Repository Context
 
