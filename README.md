@@ -60,7 +60,7 @@ A representative example is the FastAPI service connecting the summarization,
 clustering, keyword-extraction, and evaluation components:
 
 - [View the relevant implementation](https://github.com/Abbysola/news-summary-agent/tree/main/cswspws25-m3-final/src)
-- [View the related technical documentation](INSERT-DOCUMENTATION-LINK)
+- [View the related technical documentation](https://github.com/Abbysola/news-summary-agent/blob/main/Documentation/LLM_Processing_Pipeline_Technical_Documentation.pdf)
 
 I used Cursor to inspect the surrounding modules, propose the initial structure,
 identify duplicated logic, assist with refactoring, and generate edge cases.
